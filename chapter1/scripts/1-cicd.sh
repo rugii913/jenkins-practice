@@ -23,6 +23,7 @@ echo ""
 echo "-------------------------------------------------"
 echo "changed"
 git checkout -f origin/main >> ci-flow.log
+chmod 755 ./*
 
 ## checkout으로 받은 코드로 build 진행(2-build.sh 스크립트 실행)
 echo ""
